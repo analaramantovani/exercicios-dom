@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 41</title>
+    <style>
+        #circulo {
+            border-radius: 100px;
+            background-color: lightgray;
+            height: 100px;
+            width: 100px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="circulo"></div>
+    <button onclick="fundoVermelho()">Vermelho</button>
+    <button onclick="fundoAmarelo()">Amarelo</button>
+    <button onclick="fundoVerde()">Verde</button>
+
+    <script>
+        function fundoVermelho(){
+            document.getElementById("circulo").style.backgroundColor = "red"
+        }
+         function fundoAmarelo(){
+            document.getElementById("circulo").style.backgroundColor = "yellow"
+        }
+         function fundoVerde(){
+            document.getElementById("circulo").style.backgroundColor = "green"
+        }
+    </script>
+</body>
+</html>

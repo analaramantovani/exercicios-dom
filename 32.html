@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade 32</title>
+</head>
+<body>
+    <h2>Lista de compras</h2>
+    <ul id="lista">
+        <li>Whey</li>
+        <li>Energético</li>
+        <li>Creatina</li>
+    </ul>
+
+    <button onclick="adicionarItem()">Adicionar item</button>
+
+    <script>
+        function adicionarItem() {
+            var lista = document.getElementById("lista");
+            lista.innerHTML += "<li>Pré-Treino"
+        }
+    </script>
+</body>
+</html>

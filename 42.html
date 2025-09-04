@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade 42</title>
+
+</head>
+<body>
+  
+    <button onclick="mudarCor()">Mudar cor</button>
+
+    <script>
+        function mudarCor() {
+           
+            var cores = ["red", "blue", "green", "yellow", "purple"]
+            var numero = Math.floor(Math.random() * cores.length);
+            document.body.style.backgroundColor = cores[numero];
+        }
+    </script>
+</body>
+</html>

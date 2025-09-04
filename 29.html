@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade 29</title>
+</head>
+<body>
+    <img id="imagem" src="https://img.freepik.com/fotos-premium/gato-britanico-de-cabelo-curto-vermelho-sentado-em-fundo-branco-mostrando-patas-e-cauda-olhando-para-a-camera_946110-18437.jpg?semt=ais_incoming&w=740&q=80" width="200" height="200" alt="Imagem gato">
+
+    <script>
+        var img = document.getElementById("imagem");
+
+     
+        img.onmouseover = function() {
+            img.src = "https://media.istockphoto.com/id/510797946/pt/foto/adultos-caturra-cinzento.jpg?s=612x612&w=0&k=20&c=ov4cX-hU6c91tzOXQ-3qKhInxR3rpf5SiSIZNvuonOI=";
+        }
+
+        // função para voltar a imagem quando o mouse sai
+        img.onmouseout = function() {
+            img.src = "https://img.freepik.com/fotos-premium/gato-britanico-de-cabelo-curto-vermelho-sentado-em-fundo-branco-mostrando-patas-e-cauda-olhando-para-a-camera_946110-18437.jpg?semt=ais_incoming&w=740&q=80";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Atividade 44</title>
+</head>
+<body>
+  <h2 id="dataHora">Clique para ver a data e hora</h2>
+  <button onclick="mostrarDataHora()">Mostrar Data e Hora</button>
+
+  <script>
+    function mostrarDataHora() {
+      var agora = new Date();
+
+      var dia = agora.getDate();
+      var mes = agora.getMonth() + 1; 
+      var ano = agora.getFullYear();
+      var horas = agora.getHours();
+      var minutos = agora.getMinutes();
+      if (minutos < 10) minutos = "0" + minutos; 
+
+      var dataHoraFormatada = dia + "/" + mes + "/" + ano + " " + horas + ":" + minutos;
+
+      document.getElementById("dataHora").innerHTML = dataHoraFormatada;
+    }
+  </script>
+</body>
+</html>

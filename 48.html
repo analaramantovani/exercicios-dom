@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade 48</title>
+</head>
+<body>
+    <h2>Lista de compras</h2>
+    <ul id="lista">
+        <li>Boobie Goods</li>
+        <li>Morango do Amor</li>
+        <li>Carlinhos Maia</li>
+    </ul>
+
+    <button onclick="adicionarItem()">Adicionar item</button>
+
+    <script>
+        function adicionarItem() {
+            var lista = document.getElementById("lista")
+            lista.innerHTML += "<li>Pistache"
+        }
+    </script>
+</body>
+</html>

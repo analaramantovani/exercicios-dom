@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade 37</title>
+</head>
+<body>
+    <h1 id="titulo">As atividades não acabamm</h1>
+    <input type="text" id="input" placeholder="Digite algo novo">
+    <button onclick="alterarTitulo()">Alterar Título</button>
+
+    <script>
+        function alterarTitulo() {
+            var novoTexto = document.getElementById("input").value
+            document.getElementById("titulo").innerHTML = novoTexto
+        }
+    </script>
+</body>
+</html>

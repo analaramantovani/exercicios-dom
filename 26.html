@@ -1,0 +1,22 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade 26</title>
+</head>
+<body>
+    <input type="texto" id="campo" placeholder="Digite algo">
+
+    <script>
+        var campo = document.getElementById("campo");
+
+        campo.onfocus = function() {
+            campo.style.backgroundColor = "yellow";
+        }
+
+        campo.onblur = function() {
+            campo.style.backgroundColor = "white";
+        }
+    </script>
+</body>
+</html>

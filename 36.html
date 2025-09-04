@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade 36</title>
+</head>
+<body>
+    <p id="contador">0</p>
+    <button onclick="contador()">Contar +1</button>
+    <button onclick="diminuir()">Diminuir -1</button>
+
+    <script>
+        var contar = 0
+
+        function contador() {
+            contar++; 
+            document.getElementById("contador").innerHTML = contar 
+        }
+        function diminuir() {
+            contar--; 
+            document.getElementById("contador").innerHTML = contar 
+        }
+    </script>
+</body>
+</html>
