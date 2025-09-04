@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Atividade 4</title>
+</head>
+<body>
+    <main>
+        <p id="p1" style="display: none;">Vem ni mim
+         Sexta-feira, sua linda</p>
+        <p id="p2" style="display: none;">Até quem enfim
+        A semana terminou</p>
+        <p id="p3" style="display: none;">Eu tô feliz porque, porque
+        Fim de semana começou
+        Oh, oh-oh-oh-oh
+         Oh, oh-oh-oh-oh</p>
+        <button onclick="paragrafos()">Mostrar</button>
+
+    </main>
+  
+  <script>
+    //A função paragrafos é chamada quando clicamos no botão. Nela, cada parágrafo é pego pelo id usando document.getElementById(...).innerHTML e guardado em variáveis. Depois, o alert mostra cada texto na tela, assim aparece uma caixinha com o conteúdo de cada parágrafo, um de cada vez.
+    function paragrafos() {
+      var paragrafo1 = document.getElementById("p1").innerHTML;
+      var paragrafo2 = document.getElementById("p2").innerHTML;
+      var paragrafo3 = document.getElementById("p3").innerHTML;
+      alert(paragrafo1);
+      alert(paragrafo2);
+      alert(paragrafo3);
+    }
+  </script>
+</body>
+</html>

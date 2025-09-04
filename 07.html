@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Atividade 7</title>
+</head>
+<body>
+  <p id="paragrafo">OIEEEE</p>
+  <button onclick="contar()">Contar</button>
+
+  <script>
+    // criei a função contar, que é executada quando clicamos no botão. Nela, usei document.getElementById("paragrafo").innerHTML para pegar o texto do parágrafo com id “paragrafo” e guardei esse texto na variável texto. Em seguida, usei texto.length para contar quantos caracteres o texto possui e guardei esse número na variável quantidade. Por fim, usei alert para mostrar na tela a mensagem dizendo quantos caracteres o parágrafo tem.
+    function contar() {
+      var texto = document.getElementById("paragrafo").innerHTML
+      var quantidade = texto.length;
+      alert("O parágrafo tem " + quantidade + " caracteres")
+    }
+  </script>
+</body>
+</html>

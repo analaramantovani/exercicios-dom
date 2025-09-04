@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Atividade 3</title>
+</head>
+<body>
+    <main>
+        <p id="textolegal">Calopsita</p>
+        <button onclick="trocarTexto()">Click Click</button>
+    </main>
+
+  <script>
+    // É usado document.getElementById("paragrafo") para pegar o parágrafo pelo id e, em seguida, atribuido um novo valor "Olá, mundo!" à pro, substituindo o texto original do parágrafo pelo novo texto. Assim, ao clicar no botão, o parágrafo que antes tinha o texto original passa a mostrar "Olá, mundo!".
+    function trocarTexto() {
+      var alterado = document.getElementById("textolegal").innerHTML = "Olá, mundo!"
+    }
+  </script>
+</body>
+</html>

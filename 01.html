@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Atividade 1</title>
+</head>
+<body>
+  <main>
+    <section>
+        <!-- aqui o display none é usado no css para o texto não aparecer pro usuário logo de cara -->
+         <!-- o id é usado para o javascript consseguir pegar o elemento que eu quqero pelo id, nesse caso parágrafo -->
+      <p id="paragrafo" style="display: none;">Oieee</p>  
+      <button onclick="mostrarTexto()">Clique aqui</button>
+    </section>
+  </main>
+
+  <script>
+    // essa função serve pra mostrar na tela o que está escrito no parágrafo. Primeiro ela pega o parágrafo pelo id usando document.getElementById("paragrafo") e guarda na variável paragrafo. Depois, ela mostra o texto desse parágrafo em uma caixinha de alerta com alert(paragrafo.innerHTML). Então, sempre que a função for chamada, o texto do parágrafo aparece na tela.
+    function mostrarTexto() {
+      var paragrafo = document.getElementById("paragrafo").innerHTML
+      alert(paragrafo)
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Atividade 6</title>
+</head>
+<body>
+    <main>
+        <input type="text" id="input" placeholder="Digite algo aqui">
+        <button onclick="preencherInput()">Preencher</button>
+    </main>
+  <script>
+    // criei a função preencherInput que é chamada quando clicamos no botão. Dentro dela, usei document.getElementById("input").value para acessar o input com o id “input” e troquei o valor que estava nele para "Preenchido automaticamente". Assim, quando a função é executada, o input que antes estava vazio ou com outro texto passa a mostrar o texto definido automaticamente.
+    function preencherInput() {
+      document.getElementById("input").value = "Preenchido automaticamente"
+    }
+  </script>
+</body>
+</html>
