@@ -9,6 +9,8 @@
     <p id="numero">Clique no botão para gerar um número</p>
 
     <script>
+        // a função gerarNumero() cria um número aleatório entre 1 e 100 e exibe na página. Ela utiliza Math.random() para gerar um valor decimal entre 0 e 1, multiplica por 100 e aplica Math.floor() para arredondar para o inteiro mais próximo. Em seguida, soma 1 para que o número fique no intervalo de 1 a 100
+        // o valor gerado é então exibido no elemento com id "numero" usando innerHTML, mostrando a mensagem "Número gerado: " seguida do número sorteado. Isso permite criar interações divertidas, como jogos ou testes de sorte, diretamente na página
         function gerarNumero() {
             var numero = Math.floor(Math.random() * 100) + 1
             document.getElementById("numero").innerHTML = "Número gerado: " + numero

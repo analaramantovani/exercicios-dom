@@ -10,6 +10,7 @@
     <button onclick="dobro()">Dobro</button>
     <p id="resultado">O dobro é... </p>
     <script>
+        // a função dobro() calcula o dobro de um número digitado pelo usuário. Primeiro, ela seleciona o campo com id "num" e obtém seu valor usando .value, convertendo-o para número com Number(). Em seguida, multiplica esse valor por 2 e armazena o resultado na variável dobrar. Por fim, atualiza o elemento com id "resultado" usando innerHTML, exibindo a mensagem "Resultado: " seguida do valor calculado
         function dobro(){
             var num1 = Number(document.getElementById("num").value)
             var dobrar = num1 * 2

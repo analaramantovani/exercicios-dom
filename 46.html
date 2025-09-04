@@ -10,6 +10,7 @@
     <button onclick="mostrarTexto()">Enviar</button>
     <p id="textodigitado"></p>
     <script>
+        // a função mostrarTexto() captura o que o usuário digitou em um campo de entrada e exibe esse conteúdo em outro elemento da página. Primeiro, ela seleciona o campo com id "input" e obtém o valor digitado usando .value, armazenando-o na variável textoinput. Em seguida, a função atualiza o conteúdo do elemento com id "textodigitado" usando innerHTML, mostrando o texto inserido pelo usuário diretamente na página.
         function mostrarTexto(){
             var textoinput = document.getElementById("input").value
             document.getElementById("textodigitado").innerHTML = textoinput

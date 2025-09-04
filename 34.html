@@ -9,6 +9,7 @@
     <p id="texto">Oieee</p>
     <button onclick="substituirTexto()">Substituir texto</button>
     <script>
+        // a função substituirTexto() tem como objetivo alterar completamente o conteúdo de um elemento na página. Ela seleciona o elemento com id "texto" usando document.getElementById() e, em seguida, redefine seu conteúdo através da propriedade innerHTML, substituindo qualquer texto anterior pelo novo valor "Texto resetado"
         function substituirTexto(){
             document.getElementById("texto").innerHTML = "Texto resetado"
         }

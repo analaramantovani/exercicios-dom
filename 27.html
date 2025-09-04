@@ -8,6 +8,7 @@
   <input type="text" id="input" placeholder="Digite algo aqui" oninput="mostrarConsole()">
 
   <script>
+    // A função mostrarConsole() tem como objetivo capturar o que o usuário digitou em um campo de entrada e exibir essa informação no console do navegador. Primeiro, ela seleciona o elemento com id "input" usando document.getElementById() e obtém o seu valor através da propriedade .value, armazenando-o na variável texto. Em seguida, utiliza console.log() para mostrar o conteúdo dessa variável no console, permitindo acompanhar o que foi digitado sem alterar o conteúdo visível da página
     function mostrarConsole() {
       var texto = document.getElementById("input").value;
       console.log(texto);

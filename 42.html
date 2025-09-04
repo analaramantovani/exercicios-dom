@@ -10,6 +10,9 @@
     <button onclick="mudarCor()">Mudar cor</button>
 
     <script>
+        // a função mudarCor() tem como objetivo alterar a cor de fundo de toda a página de forma aleatória. Primeiro, é criado um array chamado cores, contendo várias cores possíveis: red, blue, green, yellow e purple. Em seguida, a função gera um número inteiro aleatório usando Math.random() multiplicado pelo tamanho do array e arredonda com Math.floor(), garantindo que o índice gerado seja válido
+        // por fim, a função seleciona o body da página e altera sua propriedade backgroundColor para a cor sorteada. Cada vez que a função é executada, a página ganha uma nova cor de fundo, criando um efeito visual dinâmico e divertido para o usuário
+
         function mudarCor() {
            
             var cores = ["red", "blue", "green", "yellow", "purple"]

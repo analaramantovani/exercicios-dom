@@ -14,6 +14,9 @@
     <button onclick="alternarModo()">Modo Claro/Escuro</button>
 
     <script>
+        // a função alternarModo() permite alternar entre um modo claro e um modo escuro na página. Ela verifica a cor de fundo atual do body:
+        // se o fundo for preto, a função muda o backgroundColor para branco e a cor do texto (color) para preto, ativando o modo claro
+        // caso contrário, altera o fundo para preto e o texto para branco, ativando o modo escuro
         function alternarModo() {
             if (document.body.style.backgroundColor === "black") {
                 document.body.style.backgroundColor = "white";

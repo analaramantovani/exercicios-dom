@@ -15,6 +15,7 @@
     <button onclick="adicionarItem()">Adicionar item</button>
 
     <script>
+        // a função adicionarItem() é usada para inserir um novo item em uma lista existente na página. Ela começa selecionando o elemento com id "lista" através de document.getElementById() e armazenando-o na variável lista. Em seguida, utiliza innerHTML += para acrescentar um novo item <li> contendo o texto "Pré-Treino" ao final da lista
         function adicionarItem() {
             var lista = document.getElementById("lista");
             lista.innerHTML += "<li>Pré-Treino"

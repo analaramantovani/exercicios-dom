@@ -9,6 +9,7 @@
   <button onclick="mostrarDataHora()">Mostrar Data e Hora</button>
 
   <script>
+    // a função mostrarDataHora() pega a data e hora atuais com o objeto Date. Depois, separa dia, mês, ano, horas e minutos, ajusta o mês (+1) e monta tudo em uma string no formato dia/mês/ano horas:minutos. Por fim, coloca esse resultado dentro do elemento HTML com id "dataHora"
     function mostrarDataHora() {
       var agora = new Date()
 

@@ -8,6 +8,9 @@
     <input type="texto" id="campo" placeholder="Digite algo">
 
     <script>
+        // o código seleciona o elemento com id "campo" e guarda na variável campo usando document.getElementById(). Em seguida, ele define dois eventos que controlam a aparência do campo de entrada:
+        // onfocus: acionado quando o usuário clica ou seleciona o campo. Nesse momento, a função altera o backgroundColor para amarelo, destacando o campo e indicando que ele está ativo para digitação
+        // onblur: acionado quando o usuário sai do campo, ou seja, quando ele perde o foco. A função redefine o backgroundColor para branco, retornando o campo ao estado original
         var campo = document.getElementById("campo");
 
         campo.onfocus = function() {

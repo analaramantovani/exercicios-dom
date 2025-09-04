@@ -9,6 +9,7 @@
     <p id="paragrafo">Primeira linha</p>
     <button onclick="adicionarLinha()">Adicionar linha</button>
     <script>
+        // a função adicionarLinha() tem como objetivo inserir uma nova linha de texto dentro de um parágrafo existente. Primeiro, ela seleciona o elemento com id "paragrafo" usando document.getElementById() e armazena na variável p. Em seguida, utiliza innerHTML += para acrescentar ao conteúdo já existente a string "<br>Nova linha". O <br> garante que a nova linha apareça abaixo do texto anterior, mantendo a organização do parágrafo
         function adicionarLinha(){
              var p = document.getElementById("paragrafo")
             p.innerHTML += "<br>Nova linha"

@@ -11,6 +11,7 @@
     <p id="para">Parágrafo 3</p>
     <button onclick="alterarParagrafos()">Alterar parágrafos</button>
     <script>
+        // a função alterarParagrafos() tem como objetivo modificar o conteúdo de múltiplos elementos ao mesmo tempo. Ela começa selecionando todos os elementos que possuem o id "para" usando document.querySelectorAll(), armazenando-os na variável paragrafos. Em seguida, utiliza o método forEach() para percorrer cada elemento da lista e altera seu conteúdo com innerHTML, substituindo o texto por "Alterado!"
         function alterarParagrafos() {
             var paragrafos = document.querySelectorAll("#para")
             paragrafos.forEach(function(p) {

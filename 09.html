@@ -15,8 +15,9 @@
     <button onclick="alterarItem()">Alterar primeiro item</button>
 
     <script>
+        // a função alterarItem() acessa a lista com o id "lista" e modifica o conteúdo do primeiro item (li) dela, trocando o texto que estava escrito por "Bomba"
         function alterarItem() {
-            var lista = document.getElementById("lista");
+            var lista = document.getElementById("lista")
             lista.getElementsByTagName("li")[0].innerHTML = "Bomba"
         }
     </script>

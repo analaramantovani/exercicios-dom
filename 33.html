@@ -15,6 +15,7 @@
     <button onclick="removerItem()">Remover último item</button>
 
     <script>
+        // a função removerItem() serve para excluir o último item de uma lista na página. Primeiro, ela seleciona o elemento com id "lista" usando document.getElementById() e armazena-o na variável lista. Em seguida, verifica se a lista possui um último elemento filho com lista.lastElementChild. Caso exista, a função usa removeChild() para remover esse último item da lista
        function removerItem() {
             var lista = document.getElementById("lista");
             if (lista.lastElementChild) {

@@ -9,6 +9,8 @@
   <button onclick="mostrarDataHora()">Mostrar Data e Hora</button>
 
   <script>
+    // a função mostrarDataHora() é responsável por exibir a data e a hora atuais em um elemento da página. Ela cria um objeto Date chamado agora e separa as informações em dia, mês, ano, horas e minutos. Como os meses começam do zero em JavaScript, é necessário somar +1 ao valor do mês. Para que os minutos fiquem sempre com dois dígitos, a função adiciona um zero na frente quando o valor é menor que 10
+    // depois, todas essas informações são combinadas na variável dataHoraFormatada, no formato dia/mês/ano horas:minutos, e inseridas no elemento com id "dataHora", mostrando ao usuário a data e a hora atuais de forma clara e organizada
     function mostrarDataHora() {
       var agora = new Date();
 

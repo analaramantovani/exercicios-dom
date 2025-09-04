@@ -9,6 +9,7 @@
     <button onclick="alternar()">Modo fantasma / Normal</button>
 
     <script>
+        // a função alternar() mostra ou esconde o elemento com id "textinho". Se ele estiver escondido (display: none), muda para block; se estiver visível, muda para none, permitindo alternar sua exibição a cada chamada
         function alternar() {
             var p = document.getElementById("textinho");
             if (p.style.display == "none") {

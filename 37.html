@@ -10,6 +10,7 @@
     <button onclick="alterarTitulo()">Alterar Título</button>
 
     <script>
+        // a função alterarTitulo() permite atualizar dinamicamente o texto de um título na página com base no que o usuário digita. Primeiro, ela seleciona o campo de entrada com id "input" e obtém seu valor usando .value, armazenando-o na variável novoTexto. Em seguida, a função seleciona o elemento com id "titulo" e altera seu conteúdo através de innerHTML, substituindo o texto antigo pelo valor digitado pelo usuário
         function alterarTitulo() {
             var novoTexto = document.getElementById("input").value
             document.getElementById("titulo").innerHTML = novoTexto

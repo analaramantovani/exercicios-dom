@@ -10,6 +10,9 @@
     <button onclick="fantasma()">Modo fantasma</button>
     <button onclick="normal()">Voltar ao normal</button>
     <script>
+        // A função fantasma() seleciona o elemento com id "textinho" e altera sua propriedade de estilo display para "none", fazendo com que ele desapareça da tela, sem ser removido do HTML
+        // Já a função normal() faz o processo inverso: ela acessa o mesmo elemento e muda o display para "block", fazendo com que ele volte a ser exibido normalmente na página
+
         function fantasma(){
             document.getElementById("textinho").style.display = "none"
         }

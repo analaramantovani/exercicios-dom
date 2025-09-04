@@ -11,6 +11,7 @@
     <button onclick="somar()">Somar</button>
     <p id="resultado">Resultado: </p>
     <script>
+        // A função somar() realiza a soma de dois números fornecidos pelo usuário em campos de entrada. Primeiro, ela seleciona os elementos com id "num1" e "num2", obtendo seus valores através de .value e convertendo-os para números usando Number(). Em seguida, soma os dois valores e guarda o resultado na variável somar. Por fim, a função atualiza o conteúdo do elemento com id "resultado" usando innerHTML, exibindo o texto "Resultado: " seguido do valor calculado
         function somar(){
             var num1 = Number(document.getElementById("num1").value)
             var num2 = Number(document.getElementById("num2").value)

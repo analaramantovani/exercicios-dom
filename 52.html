@@ -10,6 +10,8 @@
     <button onclick="proximo()">Próximo</button>
 
     <script>
+        // o código permite alternar entre várias imagens em um elemento com id "imagem". As URLs das imagens estão armazenadas em um array chamado imagens, e a variável indice controla qual imagem está sendo exibida
+        // a função proximo() aumenta o índice em 1 e, se ultrapassar o tamanho do array, retorna para 0. Em seguida, atualiza o src da imagem com a URL correspondente, exibindo a próxima imagem. Isso cria um efeito de slide simples e contínuo
         var img = document.getElementById("imagem");
 
         var imagens = [

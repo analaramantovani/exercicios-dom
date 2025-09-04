@@ -8,6 +8,7 @@
     <button id="botao" onclick="clicarUmaVez()">Clique aqui</button>
 
     <script>
+        // a função clicarUmaVez() é usada para exibir uma mensagem ao usuário e impedir que ele clique no mesmo botão novamente. Ao ser chamada, primeiro ela utiliza alert() para mostrar a mensagem "Você clicou no botão!". Em seguida, seleciona o botão com id "botao" usando document.getElementById() e define a propriedade disabled como true, desativando o botão
         function clicarUmaVez() {
             alert("Você clicou no botão!")
             document.getElementById("botao").disabled = true;
